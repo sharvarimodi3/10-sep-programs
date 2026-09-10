@@ -11,4 +11,9 @@
 minutes = int(input("Enter minutes: "))
 hours = minutes / 60
 remaining_minutes = minutes % 60
-print(f'Hours: {int(hours)} Remaining Minutes: {remaining_minutes}')
+print(f'{minutes} is {int(hours)} Hours and {remaining_minutes} Minutes')
+
+#4.
+integer = int(input("Enter integers: "))
+last_digit = integer % 10
+print("Last digit of the number is:", last_digit)
