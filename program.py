@@ -19,15 +19,22 @@
 #print("Last digit of the number is:", last_digit)
 
 #5.
-role = input("Enter your role: ")
-age = int(input("Enter your age: "))
-print("Eligible :", role == "student" and age >= 21)
+# role = input("Enter your role: ")
+# age = int(input("Enter your age: "))
+# print("Eligible :", role == "student" and age >= 21)
 
-#6.
-a = int(input("Enter A number: "))
-b = int(input("Enter B number: "))
-print("Before swap : a=",a,"b =",b)
-a = a + b
-b = a - b
-a = a - b
-print("After Swap : a=",a,"b =",b)
+# #6.
+# a = int(input("Enter A number: "))
+# b = int(input("Enter B number: "))
+# print("Before swap : a=",a,"b =",b)
+# a = a + b
+# b = a - b
+# a = a - b
+# print("After Swap : a=",a,"b =",b)
+
+#7.
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("You are eligible to drive.")
+else:
+    print("You are not eligible to drive.")
