@@ -6,8 +6,33 @@
 #     print("You are not eligible to drive.")
 
 #8.
-integer = int(input("Enter an integer: "))
-if integer % 2 == 0:
-    print("The integer is even.")
+# integer = int(input("Enter an integer: "))
+# if integer % 2 == 0:
+#     print("The integer is even.")
+# else:
+#     print("The integer is odd.")
+
+#9.
+num = int(input("Enter which day of the week you want to check (1-7): "))
+if num == 1:
+    print("Monday")
 else:
-    print("The integer is odd.")
+    if num == 2:
+        print("Tuesday")
+    else:
+        if num == 3:
+            print("Wednesday")
+        else:
+            if num == 4:
+                print("Thursday")
+            else:
+                if num == 5:
+                    print("Friday")
+                else:
+                    if num == 6:
+                        print("Saturday")
+                    else:
+                        if num == 7:
+                            print("Sunday")
+                        else:
+                            print("Invalid input. Please enter a number between 1 and 7.")
